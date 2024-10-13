@@ -1,0 +1,69 @@
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/xam">
+        <EditText
+            android:id="@+id/editTextid"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Xoa theo id"
+            android:textColorHint="@color/aqua"/>
+        <Button
+            android:id="@+id/butDel"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Del"
+            android:textSize="12dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/xam">
+        <EditText
+            android:id="@+id/editTextname"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Nhap name"
+            android:textColorHint="@color/aqua"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="Add"
+            android:textSize="12dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/xam">
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Nhap mo ta"
+            android:textColorHint="@color/aqua"/>
+        <Button
+            android:id="@+id/butClearData"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="CLRData"
+            android:textSize="12dp"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_border"
+        android:paddingLeft="10dp"
+        android:scrollbarThumbVertical="@color/aqua"/>
+</LinearLayout>
