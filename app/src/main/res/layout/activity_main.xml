@@ -12,13 +12,13 @@
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:hint="Xoa theo id"
+            android:hint="Xóa theo id"
             android:textColorHint="@color/aqua"/>
         <Button
             android:id="@+id/butDel"
             android:layout_width="70dp"
             android:layout_height="50dp"
-            android:text="Del"
+            android:text="Xóa"
             android:textSize="12dp"/>
     </LinearLayout>
     <LinearLayout
@@ -31,7 +31,7 @@
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:hint="Nhap name"
+            android:hint="Nhập tên công việc"
             android:textColorHint="@color/aqua"/>
 
         <Button
@@ -50,13 +50,13 @@
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:hint="Nhap mo ta"
+            android:hint="Nhập mô tả"
             android:textColorHint="@color/aqua"/>
         <Button
             android:id="@+id/butClearData"
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:text="CLRData"
+            android:text="Xóa bảng dữ liệu"
             android:textSize="12dp"/>
     </LinearLayout>
     <ListView
